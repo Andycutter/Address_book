@@ -9,7 +9,7 @@ Given("I visit the site", async function() {
 });
 
 Then('I should see {string}', async function(content) {
-  return 'pending'
+  return await this.pageHasTextContent(content)
 });
 
 When('I click {string}', async function(string) {
@@ -20,7 +20,7 @@ Then('I fill in {string} with {string}', async function(string, string2) {
   return 'pending'
 });
 
-Then('I should have {int} contact in my address book', async function(int) {
+Then('I should have {int} contact inw my address book', async function(int) {
   return 'pending'
 });
 
