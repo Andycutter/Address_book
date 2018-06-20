@@ -13,7 +13,7 @@ Then('I should see {string}', async function(content) {
 });
 
 When('I click {string}', async function(btnName) {
-  return await this.clickOnButton(btnName.toLowerCase())
+  return await this.clickOnButton(btnName)
 });
 
 Then('I fill in {string} with {string}', async function(field, content) {
