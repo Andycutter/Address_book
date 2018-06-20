@@ -13,7 +13,7 @@ const renderContacts = () => {
             li.innerHTML = `
                 <div class='card'>
                     <div class='image'> 
-                        <img src='https://ca-address-book.herokuapp.com/images/pine.jpg' />
+                        <img src='https://ca-address-book.herokuapp.com/images/pine.jpg' alt='Pines' height='175' width='263'/>
                     </div>
                     <div class='content'>
                         <h1>${ contact.name }</h1>
@@ -31,7 +31,6 @@ const renderContacts = () => {
         div.innerHTML = '<p>You have no contacts in your address book</p>'
     }
 }
-
 document.addEventListener('DOMContentLoaded', () => {
     renderContacts()
     const addContactForm = document.querySelector('.new-contact-form')
