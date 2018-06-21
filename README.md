@@ -38,20 +38,20 @@ In each text field fill in the corresponding information:
 
  ### 3. List of files
  This application consist of the following files:
- * index.html
- * app.js
- * bundle.js
- * README.md
+ * **index.html**
+ * **app.js**
+ * **bundle.js**
+ * **README.md**
 
- ##### index.html
+ **index.html**
  Contains the framework og the user interface and the CSS elements of the webpage.
- ##### app.js 
+ **app.js** 
  Contains the JavaScript that adds functionality to the webpage. This code will be transfered to
  the bundle.js file which the index.html file will draw upon. 
- ##### bundle.js
+ **bundle.js**
  Contains the code from app.js in a single line compacted format. Good for performance and 
  computers but difficult for programmers to read and understand.
- ##### README.md
+ **README.md**
  Contains this document.
 
  ### 4. Changelog
