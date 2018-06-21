@@ -12,9 +12,6 @@ const renderContacts = () => {
             let li = document.createElement('li')
             li.innerHTML = `
                 <div class='card'>
-                    <div class='image'> 
-                        <img src='https://ca-address-book.herokuapp.com/images/pine.jpg' alt='Pines' height='175' width='263'/>
-                    </div>
                     <div class='content'>
                         <h1>${ contact.name }</h1>
                         <h2>${ contact.company }</h2>
@@ -22,6 +19,9 @@ const renderContacts = () => {
                         ${ contact.email } |
                         <a href='https//www.twitter.com/${ contact.twitter}'>@${ contact.twitter}</a>
                     </div>
+                    <div class='image'> 
+                    <img src='https://ca-address-book.herokuapp.com/images/pine.jpg' alt='Pines' height='175' width='263'/>
+                </div>
                 </div>    
             `
             ul.appendChild(li)
